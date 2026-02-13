@@ -245,6 +245,13 @@ class Match:
         {"text": "Wicketkeeper fails to take ball - 4 byes", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 0, "extras_runs": 4, "score_inc": 4},
         {"text": "Bouncer edged to slips - caught", "out": "striker", "method": "Caught", "batsman_runs": 0, "bowler_runs": 0, "extras_runs": 0, "score_inc": 0},
         {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
+        {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
+        {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
+        {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
+        {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
+        {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
+        {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
+        {"text": "No ball", "out": None, "method": None, "batsman_runs": 0, "bowler_runs": 1, "extras_runs": 1, "score_inc": 1, "extra_ball": True},
         {"text": "Batsman attempting 3rd run - run out 2 runs", "out": "striker", "method": "Run Out", "batsman_runs": 2, "bowler_runs": 2, "extras_runs": 0, "score_inc": 2},
         {"text": "Leg glance mistimed - caught", "out": "striker", "method": "Caught", "batsman_runs": 0, "bowler_runs": 0, "extras_runs": 0, "score_inc": 0},
         {"text": "Poor return to wicketkeeper - 2 overthrows", "out": None, "method": None, "batsman_runs": 2, "bowler_runs": 2, "extras_runs": 0, "score_inc": 2},
@@ -1936,7 +1943,7 @@ class CricketGUI:
     def __init__(self, root: tk.Tk):
         self.root = root
         self._settings = self._load_settings()
-        root.title("Dice Cricket Simulator")
+        root.title("Max Walker's Cricket Game")
         root.geometry("1400x950")
         root.state("zoomed")
         self._build_menubar()
